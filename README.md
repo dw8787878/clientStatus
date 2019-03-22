@@ -1,10 +1,12 @@
 # App name
-Hot Client Notification
-
+Client Status Notification
 
 ### The following information is displayed:
 
-* Hot Client Notification
+* Client Ping Information
+* Is Client Hot?
 * Add CSM
 * Add CSE
+* Add PE
+* Add AE
 
