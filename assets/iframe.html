@@ -5,14 +5,26 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@zendeskgarden/css-bedrock@7.0" type="text/css">
 </head>
 <body>
-  <span style="font-size: 15px"><input type="checkbox" id="hot_client" checked=""> Hot Client</input></span>
-  <br>
-  <br>
-  <span id="csm"></span>
-  <br><br>
-  <span id="cse"></span>
+  <span id="error"></span>
+  <table style="text-align: center;">
+    <tr>
+      <th><span id="hotClientStatus"></span></th>
+      <th><span id="pingStatus"></span></th>
+    </tr>
+    <tr>
+      <td><span id="postSale Header">Post-Sale Team</span></td>
+      <td><span id="preSale Header">Pre-Sale Team</span></td>
+    </tr>
+    <tr>
+      <td class><span id="csm"></span></td>
+      <td class=><span id="prePE"></span></td>
+    </tr>
+    <tr>
+      <td class><span id="postPE"></span></td>
+      <td class><span id="ae"></span></td>
+    </tr>
+  </table>
   <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
-  <!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
   <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </body>
